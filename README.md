@@ -6,6 +6,7 @@ and	Medicaid,	to	predict	overall	rating	of	a	nursing	home	based	on	selected	attr
 Nursing	Homes.	We have	used	two	classification	techniques	- Logistic	Regression	and	K-Nearest	
 Neighbor	to	build	predictive	classification	models.	Models	are	built	based	on	data	published	as	
 of	September	2017,	for all	the	50	states	in	US.
+K fold cross validation is used for K Nearest Neighbors  
 
 The attributes in the data set are:
 
@@ -17,3 +18,4 @@ The attributes in the data set are:
 6. Adj_total-Adjusted	Total	Nurse	Staffing	Hours	per	Resident	per	Day	
 7. WEIGHTED_ALL_CYCLES_SCORE-Total	weighted	health	survey	score	
 8. TOT_PENLTY_CNT-Total	number	of	penalties.
+
